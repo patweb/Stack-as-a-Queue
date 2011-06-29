@@ -17,13 +17,13 @@ public class StackAsAQueue {
 
     Queue<String> myQueue = new Queue<String>();
 
-    myQueue.enqueue("sh");
-    myQueue.enqueue("pi");
-    myQueue.enqueue("fu");
-    myQueue.enqueue("cu");
-    myQueue.enqueue("co su");
-    myQueue.enqueue("mo fu");
-    myQueue.enqueue("ti");
+    myQueue.enqueue("s");
+    myQueue.enqueue("p");
+    myQueue.enqueue("f");
+    myQueue.enqueue("c");
+    myQueue.enqueue("cs");
+    myQueue.enqueue("mf");
+    myQueue.enqueue("t");
 
     System.out.println("dequeing: " + myQueue.dequeue());
     System.out.println("dequeing: " + myQueue.dequeue());
