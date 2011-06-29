@@ -21,8 +21,8 @@ public class StackAsAQueue {
     myQueue.enqueue("p");
     myQueue.enqueue("f");
     myQueue.enqueue("c");
-    myQueue.enqueue("cs");
-    myQueue.enqueue("mf");
+    myQueue.enqueue("c");
+    myQueue.enqueue("m");
     myQueue.enqueue("t");
 
     System.out.println("dequeing: " + myQueue.dequeue());
